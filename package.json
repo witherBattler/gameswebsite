@@ -1,0 +1,26 @@
+{
+  "name": "gameswebsite",
+  "version": "1.0.0",
+  "description": "gameswebsite",
+  "main": "script.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/witherBattler/gameswebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/witherBattler/gameswebsite/issues"
+  },
+  "homepage": "https://github.com/witherBattler/gameswebsite#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
