@@ -1,0 +1,87 @@
+@font-face {
+    font-family: poppinsSemiBold;
+    src: url(../../fonts/poppinsSemiBold.ttf);
+}
+
+body {
+    background-color: #333333
+}
+
+#mainSide {
+    width: 1000px;
+    height: 700px;
+    display: inline;
+    text-align: center;
+}
+
+#menuButtonGameBar {
+    width: 100px;
+    height: 30px;
+}
+
+canvas {
+    border-width: 10px;
+    border-color:ivory;
+}
+
+#gamesList {
+    overflow-y:auto;
+    display: block;
+    width: 350px;
+    height: 700px;
+    text-align: ceneter;
+    float: left;
+    background-color: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 100px;
+  height: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #888888; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f1f1f1; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bfbfbf;
+}
+
+.gameDiv {
+    width: 100px;
+    text-align: center !important;
+    overflow: auto;
+}
+
+.gameH1Left {
+    font-family: poppinsSemiBold;
+}
+
+.gameDivLeft {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.gameImageLeft {
+    width: 280px;
+    text-align: center;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.gameButtonLeft {
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
