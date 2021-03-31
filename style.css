@@ -23,9 +23,18 @@ body {
 
 .gameTileMenu {
     background-color: whitesmoke;
-    float: left;
+    padding: 0px;
     text-align: center;
     font-family: lexendMedium;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 250px;
+    display: inline-block;
+}
+
+.gameImageMenu {
+    object-fit: contain;
+     width: 250px;
 }
 
 #titleH1 {
@@ -42,7 +51,7 @@ body {
 
 .gameRowMenu {
     text-align: center;
-    width: 100vw;
+    width: 80vw;
     height: 30vh;
 }
 
