@@ -40,6 +40,12 @@ body {
     text-align: center;
 }
 
+.gameRowMenu {
+    text-align: center;
+    width: 100vw;
+    height: 30vh;
+}
+
 .centered {
     text-align: center;
 }
@@ -75,7 +81,7 @@ body {
 }
 
 .gameButtonMenu {
-    background-color: #45f3ff;
+    background-color: #3df26d;
     margin-bottom: 10px;
     display: inline-block;
     text-decoration: none;
