@@ -29,16 +29,12 @@ body {
 }
 
 #mainSide {
-    width: 1000px;
-    height: 700px;
+    width: 70vw;
+    height: 100vh;
     display: inline;
     text-align: center;
 }
 
-#menuButtonGameBar {
-    width: 100px;
-    height: 30px;
-}
 
 canvas {
     border-width: 10px;
@@ -48,8 +44,7 @@ canvas {
 #gamesList {
     overflow-y:auto;
     display: block;
-    width: 350px;
-    height: 700px;
+    height: 96vh;
     text-align: ceneter;
     float: left;
     background-color: #000000;
@@ -75,34 +70,34 @@ canvas {
   background: #bfbfbf;
 }
 
-.gameDiv {
-    width: 100px;
-    text-align: center !important;
-    overflow: auto;
-}
 
 .gameH1Left {
     font-family: poppinsSemiBold;
 }
 
 .gameDivLeft {
+    background-color: whitesmoke;
+    padding: 0px;
     text-align: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+    font-family: lexendMedium;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+    width: 15vw;
+    display: inline-block;
 }
 
 
 .gameImageLeft {
-    width: 280px;
-    text-align: center;
     object-fit: contain;
-    margin-top: 20px;
+    width: 15vw;
 }
 
 .gameButtonLeft {
-    width: 300px;
+    background-color: #3df26d;
+    margin-bottom: 10px;
     display: inline-block;
-    margin-bottom: 20px;
+    text-decoration: none;
+    width: 10vw;
+    height: 3vh;
 }
