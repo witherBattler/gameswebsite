@@ -14,7 +14,8 @@
 }
 
 body {
-    background-color: #333333
+    background-color: #333333;
+    background-image: url(images/pattern.png)
 }
 
 .gameRowMenu {
@@ -26,8 +27,8 @@ body {
     padding: 0px;
     text-align: center;
     font-family: lexendMedium;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
     margin-bottom: 50px;
     width: 250px;
     display: inline-block;
