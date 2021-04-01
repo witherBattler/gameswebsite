@@ -1,10 +1,31 @@
 @font-face {
     font-family: poppinsSemiBold;
-    src: url(../../fonts/poppinsSemiBold.ttf);
+    src: url(../fonts/poppinsSemiBold.ttf);
+}
+
+@font-face {
+    font-family: lexendMedium;
+    src: url(../fonts/Lexend-Medium.ttf);
+}
+
+@font-face {
+    font-family: dpcomic;
+    src: url(../fonts/dpcomic.ttf);
 }
 
 body {
     background-color: #333333
+}
+
+.gameTitle {
+    font-family: dpcomic;
+    font-size: 7vh;
+    margin-top: 0px;
+    margin-bottom: 1vh
+}
+
+.h2controlPannel {
+    color: whitesmoke;
 }
 
 #mainSide {
