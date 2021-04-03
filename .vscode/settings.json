@@ -10,5 +10,6 @@
         "node_modules": true    // this excludes the folder 
                                 // only from the root of
                                 // your workspace 
-    }
+    },
+    "liveServer.settings.port": 5501
 }
