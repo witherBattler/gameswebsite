@@ -9,7 +9,11 @@
 //just an example:
 //[{image: "https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg", name: "Title", link: "link"}];
 
-let games = [{image: "https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg", name: "Title", link: "link"}]
+let games = [{
+    image: "../images/gamesImages/fallingDanger.png", 
+    name: "Falling Danger", 
+    link: "../games/fallingDanger/index.html"
+}]
 
 let body = document.getElementsByTagName("BODY")[0];
 
@@ -33,7 +37,7 @@ for(var i = 0; i != games.length; i++){
 
     let gameButton = document.createElement("a")
     gameButton.innerHTML = "Play Game"
-    gameButton.setAttribute("src", games[i].link)
+    gameButton.setAttribute("href", games[i].link)
     gameButton.className = "gameButtonLeft"
     gameDiv.appendChild(gameButton)
 }

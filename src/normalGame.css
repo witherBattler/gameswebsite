@@ -17,6 +17,8 @@ body {
     background-color: #333333
 }
 
+
+
 .gameTitle {
     font-family: dpcomic;
     font-size: 7vh;
@@ -49,8 +51,14 @@ canvas {
     border-color:ivory;
 }
 
+::-webkit-scrollbar {
+    width: thin;
+}
+
 #gamesList {
-    overflow-y:auto;
+    overflow-y:scroll;
+    overflow: -moz-scrollbars-vertical; 
+    
     display: block;
     height: 98vh;
     width: 18vw;
@@ -69,10 +77,7 @@ canvas {
     background-color: #3df26d;
 }
 
-::-webkit-scrollbar {
-  width: 100px;
-  height: 30px;
-}
+
 
 /* Track */
 ::-webkit-scrollbar-track {
@@ -103,13 +108,17 @@ canvas {
     margin-right: 1vw;
     margin-bottom: 2vh;
     width: 15vw;
+    margin-left: 0px;
     display: inline-block;
 }
 
 
 .gameImageLeft {
     object-fit: contain;
-    width: 15vw;
+    width: 14.5vw;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
 }
 
 .gameButtonLeft {
