@@ -99,7 +99,7 @@ function draw() {
             if(meteoritesGroup[i].overlap(player)){
                 gameOver = true
             }
-            if(meteoritesGroup[i].position.y > 700){
+            if(meteoritesGroup[i].position.y > vh(100)){
                 meteoritesGroup.remove(meteoritesGroup[i])
                 score++
                 break meteoritesLoop
