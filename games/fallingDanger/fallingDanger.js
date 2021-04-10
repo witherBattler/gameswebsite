@@ -29,7 +29,7 @@ function randomNumber(min, max) { // min and max included
 
 function setup() {
     //creating & setting sprites
-    player = createSprite(400, 475, 50, 50)
+    player = createSprite(vw(26), vh(66.5), vh(7), vh(7))
     player.shapeColor = "lightblue"
 
     //creating groups
@@ -43,11 +43,9 @@ function setup() {
     gameOverFont = loadFont("fonts/game_over.ttf")
 
     //P5JS functions
-    canvas = createCanvas(800, 600)
+    canvas = createCanvas(vw(52), vh(83))
     canvas.parent("mainSide")
     canvas.style("display", "inline")
-    canvas.style.borderColor = "white"
-    canvas.style.borderWidth = "10px"
     frameRate(60)
 }
 
@@ -71,22 +69,22 @@ function draw() {
         background("black")
         noStroke()
         fill("green")
-        rect(0, 500, 800, 100);
+        rect(0, vh(70), vw(70), vh(10));
         fill("#874f00")
-        rect(0, 530, 800, 70);
+        rect(0, vh(75), vw(70), vh(10));
         drawSprites(playerGroup)
         drawSprites(meteoritesGroup)
         textFont(gameOverFont)
         textAlign(CENTER, CENTER)
-        textSize(120)
+        textSize(vh(20))
         fill("yellow")
-        text("Score: " + score, 400, 100)
+        text("Score: " + score, vw(26), vh(10))
         //controls
         if((keyIsDown(65) || keyIsDown(37)) && player.position.x >= 25){
-            player.position.x = player.position.x - 5
+            player.position.x = player.position.x - vw(0.3)
         }
         if((keyDown(68) || keyIsDown(39)) && player.position.x <= 775){
-            player.position.x = player.position.x + 5
+            player.position.x = player.position.x + vw(0.3)
         }
         if(randomNumber(0, 10) == 1){
             let objectSize = randomNumber(50, 75)

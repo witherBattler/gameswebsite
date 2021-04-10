@@ -46,10 +46,7 @@ body {
 }
 
 
-canvas {
-    border-width: 10px;
-    border-color:ivory;
-}
+
 
 ::-webkit-scrollbar {
     width: thin;
