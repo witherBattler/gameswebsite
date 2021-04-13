@@ -9,11 +9,19 @@
 //just an example:
 //[{image: "https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg", name: "Title", link: "link"}];
 
-let games = [{
-    image: "../images/gamesImages/fallingDanger.png", 
-    name: "Falling Danger", 
-    link: "../games/fallingDanger/index.html"
-}]
+let games = [
+    {
+        image: "../images/gamesImages/fallingDanger.png", 
+        name: "FallBlox", 
+        link: "../games/fallingDanger/index.html"
+    },
+
+    {
+        image: "https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg",
+        name: "Snake",
+        link: "../games/Snake/index.html"
+    }
+]
 
 let body = document.getElementsByTagName("BODY")[0];
 
