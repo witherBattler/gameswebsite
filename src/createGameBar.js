@@ -17,7 +17,7 @@ let games = [
     },
 
     {
-        image: "https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg",
+        image: "../images/gamesImages/snake.png",
         name: "Snake",
         link: "../games/Snake/index.html"
     }

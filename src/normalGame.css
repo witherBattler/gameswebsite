@@ -109,7 +109,7 @@ body {
 
 .gameImageLeft {
     object-fit: contain;
-    width: 14.5vw;
+    height: 10.9vw;
     border-width: 3px;
     border-color: white;
     border-style: solid;

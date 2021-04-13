@@ -36,7 +36,8 @@ body {
 
 .gameImageMenu {
     object-fit: contain;
-    width: 15vw;
+    height: 10.9vw;
+    margin-top: 0.2vh;
 }
 
 #titleH1 {

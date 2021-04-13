@@ -117,20 +117,22 @@ function checkApples() {
     }
 }
 
+function returnTrueIfAppleCanBePlaced(xPos, yPos){
+    for(var i = 0; i != snake.length; i++){
+        if(snake[i].x == xPos && snake[i].y == yPos){
+            return false
+        }
+    }
+    return true
+} 
+
 function addAppleInRightPlace() {
     var appleX = randomNumber(0, 19)
     var appleY = randomNumber(0, 19)
 
-    while(true){
-        var appleCanBePlaced = true
-        for(var i = 0; i != snake.length; i++){
-            if(snake[i].x == appleX && snake[i].y == appleY){
-                appleCanBePlaced = false
-            }
-        }
-        if(appleCanBePlaced == true){
-            break
-        }
+    while(!returnTrueIfAppleCanBePlaced(appleX, appleY)){
+        appleX = randomNumber(0, 19)
+        appleY = randomNumber(0, 19)
     }
     apples = []
     addApple(appleX, appleY)
@@ -181,6 +183,7 @@ function draw() {
             stage = "game"
             snake = [{type: "head", x: 6, y: 10}, {type: "body", x: 5, y: 10}, {type: "body", x: 4, y: 10}]
             apples = []
+            score = 0
             addApple(10, 10)
             direction = "right"
         }
