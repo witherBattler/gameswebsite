@@ -13,13 +13,18 @@ let games = [
     {
         image: "../images/gamesImages/fallingDanger.png", 
         name: "FallBlox", 
-        link: "../games/fallingDanger/index.html"
+        link: "../games/fallingDanger/"
     },
 
     {
         image: "../images/gamesImages/snake.png",
         name: "Snake",
-        link: "../games/Snake/index.html"
+        link: "../games/Snake/"
+    },
+    {
+        image: "../images/gamesImages/flappyBird.png",
+        name: "Flappy Bird",
+        link: "../games/flappyBird/"
     }
 ]
 
