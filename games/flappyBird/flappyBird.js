@@ -113,10 +113,16 @@ function checkDeath() {
   }
 }
 
+setInterval(function() {
+  if(stage == "game"){
+    score++
+  }
+}, 1000)
+
 function draw() {
   if(stage == "game"){
     managePillars()
-    if (frameCount % 1.5 * frameCount == 0) {
+    if (frameCount % 50 * frameCount == 0) {
       createPillars();
     }
     birdPhysics()
