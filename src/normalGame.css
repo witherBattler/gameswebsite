@@ -14,10 +14,9 @@
 }
 
 body {
-    background-color: #333333
+    background-color: #333333;
+    background-image: url(../images/pattern.png)
 }
-
-
 
 .gameTitle {
     font-family: dpcomic;
@@ -44,9 +43,6 @@ body {
     display: inline;
     text-align: center;
 }
-
-
-
 
 ::-webkit-scrollbar {
     width: thin;
@@ -91,7 +87,6 @@ body {
   background: #bfbfbf;
 }
 
-
 .gameH1Left {
     font-family: poppinsSemiBold;
 }
@@ -105,7 +100,6 @@ body {
     width: 15vw;
     display: inline-block;
 }
-
 
 .gameImageLeft {
     object-fit: contain;
