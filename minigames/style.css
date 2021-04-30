@@ -1,0 +1,106 @@
+@font-face {
+    font-family: dpcomic;
+    src: url(fonts/dpcomic.ttf);
+}
+
+@font-face {
+    font-family: robotoCondensed;
+    src: url(fonts/RobotoCondensed.ttf);
+}
+
+@font-face {
+    font-family: lexendMedium;
+    src: url(fonts/Lexend-Medium.ttf);
+}
+
+body {
+    background-color: #333333;
+    background-image: url(images/pattern.png)
+}
+
+.gameRowMenu {
+    width: 100vw;
+}
+
+.gameTileMenu {
+    background-color: whitesmoke;
+    padding: 0px;
+    text-align: center;
+    font-family: lexendMedium;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 50px;
+    width: 15vw;
+    display: inline-block;
+}
+
+.gameImageMenu {
+    object-fit: contain;
+    height: 10.9vw;
+    margin-top: 0.2vh;
+}
+
+#titleH1 {
+    font-family: dpcomic;
+    font-size: 20vh;
+    text-align: center;
+    margin-bottom: 5vw;
+    margin-top: 3vh;
+}
+
+#allGames {
+    text-align: center;
+}
+
+.gameRowMenu {
+    text-align: center;
+    width: 80vw;
+    height: 30vh;
+}
+
+.centered {
+    text-align: center;
+}
+
+.startButton {
+    width: 30vh;
+    height: 6vh;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 2vw;
+    margin-right: 4vh;
+    font-family: robotoCondensed;
+    font-size: 3vh;
+    color: #333333;
+}
+
+.blue {
+    background-color: #45f3ff;
+}
+
+.pink {
+    background-color: #f569f2;
+}
+
+.noEffect {
+    border: none;
+    outline:none;
+}
+
+#startingButtons {
+    height: 10vh;
+    margin-bottom: 3vh;
+}
+
+.gameButtonMenu {
+    background-color: #3df26d;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+    width: 10vw;
+    height: 3vh;
+}
+
+.gameH1 {
+    font-size: 2vw;
+}
